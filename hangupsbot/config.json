@@ -1,27 +1,59 @@
 {
-  "admins": ["USER1_ID", "USER2_ID"],
-  "autoreplies": [
-    [["hi", "hello"], "Hello world!"],
-    [["bot"], "At your service!"]
-  ],
-  "autoreplies_enabled": true,
-  "commands_admin": ["quit", "config"],
-  "commands_enabled": true,
-  "commands_aliases": ["/bot", "/hal", "/cylon", "/skynet", "/terminator"],
-  "forwarding_enabled": true,
-  "conversations": {
-    "CONV1_ID": {
-      "forward_to": [
-        "CONV2_ID"
-      ]
-    },
-    "CONV2_ID": {
-      "autoreplies_enabled": false,
-      "commands_enabled": false,
-      "forwarding_enabled": false,
-      "forward_to": [
-        "CONV1_ID"
-      ]
-    }
-  }
-}
+    "admins": [
+        "jpieters7@gmail.com"
+    ],
+    "autoreplies": [
+        [
+            [
+                "hi",
+                "hello"
+            ],
+            "Hello world!"
+        ],
+        [
+            [
+                "bot"
+            ],
+            "At your service!"
+        ]
+    ],
+    "autoreplies_enabled": true,
+    "commands_admin": [
+        "hangouts",
+        "reload",
+        "quit",
+        "config",
+        "block",
+        "record clear"
+    ],
+    "commands_conversation_admin": [
+        "leave",
+        "echo",
+        "block"
+    ],
+    "commands_enabled": true,
+    "commands_aliases": [
+        "/bot",
+        "/hal",
+        "/cylon",
+        "/skynet",
+        "/terminator"
+    ],
+    "forwarding_enabled": false,
+    "rename_watching_enabled": true,
+    "conversations": {
+        "UA-72192944-1": {
+            "conversation_admin":  "jpieters7@gmail.com",
+            "autoreplies": [
+        [["whistle", "bot", "whistlebot"], "/think {}"],
+        [["trash"], "You're trash"]
+      ],
+            "autoreplies_enabled": true,
+                    "commands_enabled": true,
+                    "forwarding_enabled": false,
+                    "forward_to": [
+                        "UA-72192944-1"
+                    ]
+                }
+            }
+        }

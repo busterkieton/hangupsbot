@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 # Install modern gettext class-based API in Python's builtins namespace first
-import os, io, gettext
+ io, gettext
 localedir = os.path.join(os.path.dirname(__file__), 'locale')
 gettext.install('hangupsbot', localedir=localedir)
 
