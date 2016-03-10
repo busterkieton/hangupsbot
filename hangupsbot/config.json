@@ -1,5 +1,5 @@
 {
-  "admins": ["USER1_ID", "USER2_ID"],
+  "admins": ["jpieters7@gmail.com", "USER2_ID"],
   "autoreplies": [
     [["hi", "hello"], "Hello world!"],
     [["bot"], "At your service!"]
